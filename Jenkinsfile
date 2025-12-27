@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE_NAME = "Prerna22rah/devops-app"
+    IMAGE_NAME = "prernar22/devops-app"
     IMAGE_TAG  = "1.0"
   }
 
