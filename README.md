@@ -26,6 +26,11 @@ This project demonstrates an end-to-end CI/CD pipeline for deploying a container
 │ ├── deployment.yaml
 │ └── service.yaml
 └── extras/
+├── terraform-project/
+│   ├── main.tf
+│   ├── README.md   ✅ (yahin dali hai)
+│   └── .gitignore
+└── README.md
 
 ## CI/CD Flow
 GitHub → Jenkins → Docker → Kubernetes → ArgoCD
