@@ -3,12 +3,16 @@
 This project demonstrates an end-to-end CI/CD pipeline for deploying a containerized application
 using DevOps best practices and a GitOps-based deployment approach.
 
+---
+
 ## Tech Stack
 - Jenkins
 - Docker
 - Kubernetes
 - ArgoCD
 - GitHub
+
+---
 
 ## Project Overview
 - Application source code is managed in GitHub.
@@ -17,6 +21,8 @@ using DevOps best practices and a GitOps-based deployment approach.
 - Kubernetes is used for application orchestration and scaling.
 - ArgoCD enables GitOps-based continuous deployment.
 - Application is deployed with multiple replicas for high availability.
+
+---
 
 ## Repository Structure
 .
@@ -30,8 +36,15 @@ using DevOps best practices and a GitOps-based deployment approach.
 ├── extras/
 └── README.md
 
+yaml
+Copy code
+
+---
+
 ## CI/CD Flow
 GitHub → Jenkins → Docker → Kubernetes → ArgoCD
+
+---
 
 ## How It Works
 1. Code changes are pushed to GitHub.
@@ -41,11 +54,15 @@ GitHub → Jenkins → Docker → Kubernetes → ArgoCD
 5. ArgoCD continuously syncs the cluster state with GitHub.
 6. Application is automatically deployed and updated in Kubernetes.
 
+---
+
 ## How to Run
 1. Commit application changes to GitHub.
 2. Trigger the Jenkins pipeline.
 3. Verify deployment using kubectl.
 4. Monitor deployment status via ArgoCD.
+
+---
 
 ## Outcome
 - Fully automated CI/CD pipeline
