@@ -8,6 +8,7 @@ This project demonstrates an end-to-end CI/CD pipeline for deploying a container
 - Kubernetes
 - ArgoCD
 - GitHub
+- Terraform
 
 ## Project Overview
 - Application source code is managed in GitHub.
@@ -28,7 +29,7 @@ This project demonstrates an end-to-end CI/CD pipeline for deploying a container
 └── extras/
 ├── terraform-project/
 │   ├── main.tf
-│   ├── README.md   ✅ (yahin dali hai)
+│   ├── README.md 
 │   └── .gitignore
 └── README.md
 
